@@ -278,6 +278,12 @@ nav a:hover {
   margin: 5px 0;
 }
 
+@media (max-width: 480px) {
+  .gallery {
+      grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 1200px) {
   .categories {
     gap: 20px;
